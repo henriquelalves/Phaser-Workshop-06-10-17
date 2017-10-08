@@ -1,25 +1,22 @@
-# Basic-Phaser-Boilerplate
-Basic Phaser boilerplate without dependencies.
+# Projeto em Branco
+Projeto em branco utilizado no Workshop de Phaser; é o mesmo que o baixado no link providenciado durante o Workshop: https://github.com/henriquelalves/Basic-Phaser-Boilerplate.
 
-## How to install
-Just git-clone/download this project in the folder you want and you are ready to go!
+## Como instalar
+Você pode clonar o repositório no seu computador usando Git, ou você pode baixar o projeto como um .zip e descompacta-lo na pasta que quiser.
 
-## How to use
-You'll need a HTTPServer to test the project (all Phaser projects need one).
+## Como usar
+Você precisa criar um HTTPServer para testar o projeto (todos os projetos em Phaser precisam de um!).
 
-If you are using Linux/macOS:
+Se você está usando Linux/macOS:
 
-1. Open your terminal.
-2. `cd where_your_project_folder_is`.
-3. `python -m SimpleHTTPServer 8000`.
-4. The project will start running in the browser on `localhost:8000`.
+1. Abra seu terminal e navegue até a pasta do projeto.
+2. Use o comando `python -m SimpleHTTPServer 8000`.
+3. O projeto irá rodar no seu browser; você só precisa ir para o link `localhost:8000`.
 
-If you are using Windows, ~~good luck!~~ there are software to simulate HTTPServers;
-you'll have to look for them, though. Try [stackoverflow!](https://stackoverflow.com/questions/5050851/best-lightweight-web-server-only-static-content-for-windows).
+Se você está usando Windows, você pode instalar Python na sua máquina ou procurar por outro software que faça o papel de HTTPServer; há alguns links providenciados nessa página do [stackoverflow](https://stackoverflow.com/questions/5050851/best-lightweight-web-server-only-static-content-for-windows).
 
-When you change the code, just refresh the browser page. Sometimes the browser will use
-the cached version of the page, so you'll have to refresh a couple of times more.
+Quando você mudar o código, apenas dê Refresh na aba do browser do projeto.
 
-## Asset credits
+## Créditos dos assets
 Dude: Phaser Mascot, https://phaser.io/
 Platform: Alucard (https://opengameart.org/content/platform-tiles-0), CC-BY
